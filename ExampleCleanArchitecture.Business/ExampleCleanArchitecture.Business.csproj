@@ -4,4 +4,17 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Common\12i2ykzv.tlq~" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ExampleCleanArchitecture.Common\ExampleCleanArchitecture.Common.csproj" />
+    <ProjectReference Include="..\ExampleCleanArchitecture.Domain\ExampleCleanArchitecture.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
